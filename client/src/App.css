@@ -1,0 +1,33 @@
+/* Style for the form container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Style for form inputs */
+input[type="text"] {
+  width: 25%;
+  padding: 10px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+  margin-left: 37.5%;
+  width: 25%;
+  background-color:#FF9800;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
